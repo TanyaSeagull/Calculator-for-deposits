@@ -16,6 +16,19 @@ h4 {
   margin: 0 auto;
 }
 
+code {
+  background-color: #444;
+  color: #fff;
+  padding: 5px 25px;
+  border-radius: 5px;
+}
+kbd {
+  background-color: #222;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  line-height: 40px;
+}
 table {
   border-collapse: collapse;
   margin-bottom: 10px;
@@ -53,23 +66,8 @@ h4 {
 }
 #dark th {
   background-color: transparent;
-
 }
+
 h1 {
   text-align: center;
-}
-#diagram td {
-  vertical-align: bottom;
-  text-align: center;
-  padding: 10px;
-}
-#diagram div {
-  margin: auto;
-}
-#dark .d-flex {
-  height: 200px;
-}
-.d-flex {
-  display: flex;
-  align-items: center;
 }
